@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url(images/diferencia-licencia-pub-licencia-cafeteria-1.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5px;
+    color: darkgoldenrod;
+    font-family: "Parisienne", cursive;
+}
+
+#eslogan {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+}
+
+h2 {
+    color: #FFE4C4;
+    font-family: "Pacifico", cursive;   
+}
+
+p {
+font-family: "Satisfy", cursive;
+font-size: 1.2em;
+line-height: 2;
+color: #FFE4C4;
+padding: 30px;
+
+}
+
+a:link {color: white;}
+a:hover {font-weight: bold;}
+a:active {color:darkgoldenrod;}
+
+#logo-cafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#contenedor-logo {
+    Text-align: center;
+}
+ul li {
+    color: white;
+}
+
