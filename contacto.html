@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Paris</title>
+<link rel="stylesheet" href="estilos.css">
+
+
+</head>
+<body>
+ <h2>Contacte con nosotros</h2>
+ <form action="contacto.php" method="get">
+<p>
+    <label for="">Nombre y apellidos</label>
+    <input type="text" required placeholder="Escriba su nombre completo"
+    name="nombre-apellidos" id="nombre-apellidos">
+    
+</p>
+
+<p>
+    <label for="">Fecha de nacimiento</label>
+    <input type="date" required name="fecha-nac" id="fecha-nac">
+</p>
+
+<p>
+    <label>Suele consumir:</label>
+    <input type="radio" required name="consume" id="cafe" value="Cafe">
+    <label for="te">Te</label>
+    <input type="radio" name="consume" id="te" value="te">
+    <label for="ambos">Ambos</label>
+    <input type="radio" name="consume" id="ambos" value="ambos">
+</p>
+
+<p>
+    <label for="">Numero de cafes al dia</label>
+    <input type="text" required>
+</p>
+
+<p>
+    <label for="">Seleccione su cafeteria</label>
+    <select name="Ciudades" id="cafe">
+    <option value="esp"selected>Madrid</option>
+    <option value="fr">Francia</option>
+    <option value="UES">America</option>
+    </select>
+    
+
+
+<p>
+    <label for="">Deseo recibir informacion sobre novedades y ofertas</label>
+    <input type="text" required>
+</p>
+
+<p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="reiniciar">
+</p>
+</form>
+
+
+ 

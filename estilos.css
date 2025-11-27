@@ -27,22 +27,22 @@ h1 {
 }
 
 h2 {
-    color: #FFE4C4;
+    color: "#FFE4C4";
     font-family: "Pacifico", cursive;   
 }
 
 p {
 font-family: "Satisfy", cursive;
 font-size: 1.2em;
-line-height: 2;
-color: #FFE4C4;
-padding: 30px;
+/* color: #FFE4C4;*/
+
 
 }
 
 a:link {color: white;}
 a:hover {font-weight: bold;}
 a:active {color:darkgoldenrod;}
+a:visited { color: white;}
 
 #logo-cafe {
     width: 200px;
@@ -56,3 +56,52 @@ ul li {
     color: white;
 }
 
+a {
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+}
+
+.texto-normal {
+    color: cornsilk
+}
+/*Estilos de la carta*/
+.fotocarta {
+    height: 200px;
+    width: 200px;
+}
+.categorias {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table, th, td {
+border: 3px solid darkgoldenrod ;
+vertical-align: center;
+width: 50%;
+padding:20px ;
+border-collapse: collapse;
+}
+table {
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    vertical-align: center;
+    margin: auto;
+    text-align: center;
+
+}
+
+label {
+    font-family: "Caveat", cursive;
+    color: cornsilk;
+    size: 1.5em;
+}
+
+form {
+    border: solid 2px darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
